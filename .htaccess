@@ -1,0 +1,4 @@
+#RewriteEngine On
+#RewriteRule ^([A-Za-z0-9_-]+).js$	/capstone_project/style/javascript/$1.js	[L]
+#RewriteRule ^([A-Za-z0-9_-]+).css$	/capstone_project/style/css/$1.css	[L]
+#RewriteRule ^([A-Za-z0-9_-]+)/?$	/capstone_project/pages/$1.php	[L]
